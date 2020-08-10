@@ -2,7 +2,7 @@
 * {
     justify-content: center;
     color:white;
-    text-shadow: black;
+    text-shadow: 4px 4px 4px black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -45,7 +45,12 @@ body {
     text-align: left;
 }
 
+td{
+    display: table-row-group;
+}
+
 button {
+    text-shadow: none;
     font-weight: bold;
     font-size:0.8em;
     padding: 0.5vw;
