@@ -1,0 +1,90 @@
+/* global */
+* {
+    justify-content: center;
+    color:white;
+    text-shadow: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main */
+body {
+    background-image: linear-gradient(-90deg, #1b262c,  #0f4c75);
+}
+
+/* class */
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+
+.cloud {
+    position: relative;
+    width: 40vw;
+    max-height: auto;
+}
+
+.avatar{
+    position: absolute;
+    width: 12vw;
+    max-height: auto;
+    margin: 4vw auto;
+    z-index: 1;
+}
+
+.table {
+    margin: auto 50vw;
+    text-align: left;
+}
+
+button {
+    font-weight: bold;
+    font-size:0.8em;
+    padding: 0.5vw;
+    background-color: yellow;
+    color:black;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.small-text {
+    font-size:0.5em;
+}
+
+/* media query */
+/* medium desktop */
+@media (max-width: 1200px) { 
+    .cloud {
+        width: 50vw;
+        height: auto;
+    }
+
+    .avatar {
+        margin: 5vw auto;
+        width: 14vw;
+        height: auto;
+    }
+
+}
+
+/* phone landscape */
+@media (max-width: 768px) { 
+    .cloud {
+        width: 80vw;
+        height: auto;
+    }
+
+    .avatar {
+        margin: 10vw auto;
+        width: 20vw;
+        height: auto;
+    }
+}
